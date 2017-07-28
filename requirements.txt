@@ -1,4 +1,5 @@
 redis
 click
-pytest
 termcolor
+
+.

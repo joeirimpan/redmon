@@ -23,7 +23,10 @@ setup(
             'redmon = redmon.cli:main',
         ],
     },
+    setup_requires=['pytest-runner'],
     install_requires=(
-    	['redis'], ['click'], ['pytest'], ['termcolor']
-    )
+        ['redis'], ['click'], ['termcolor']
+    ),
+    test_suite='tests',
+    tests_require=['pytest']
 )
