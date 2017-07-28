@@ -73,8 +73,7 @@ print its value in red.
 Redmon uses `pytest` to write/run test cases. To run the test cases,
 
 ```
-  cd tests
-  py.test
+  python setup.py test
 ```
 
 ## Contributing
